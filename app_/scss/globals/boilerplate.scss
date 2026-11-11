@@ -1,0 +1,16 @@
+hmtl {
+    font-size: 100%;
+    box-sizing: border-box;
+} 
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}       
+
+body {
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,12 @@
+@use 'util/functions' as *;
+
+.toggle {
+
+    &_button {
+        width: rem(16);
+        height: rem(16);
+        border-radius: 50%;
+        background: var(--toggle);
+        position: relative;
+    }
+}
